@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iLOVEugit init</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="input-text">
+          <textarea id="inputText" cols="40" placeholder="Enter text..."></textarea>
+        </div>
+    
+        <div class="input-text">
+          <textarea id="outputText" cols="40" placeholder="Encrypt and Decrypt..."></textarea>
+        </div>
+        
+       
+        <input type="text" id="encryptionKey" placeholder="Enter Encryption-Key...">
+    
+        <div class="btns">
+          <button onclick="encrypt()" class="btn1" style="border-radius: 0%;"> <i class="bi bi-lock text-danger"></i>Encrypt</button>
+          <button onclick="decrypt()" class="btn2"  style="border-radius: 0%;"><i class="bi bi-unlock text-success"></i>Decrypt</button>
+        </div>
+      </div>
+
+    <script src="js/script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
